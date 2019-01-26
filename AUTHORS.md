@@ -11,7 +11,8 @@ The following wonderful people contributed directly or indirectly to this projec
 
 - Erik Wiffin <https://github.com/erikwiffin>
 - Josh Mandel <https://github.com/jmandel>
-- Nikolai Schwertner <https://github.com/nschwertner>
+- Jane Williams <https://github.com/jane-williams>
+- Nikolai Schwertner <https://github.c/om/nschwertner>
 - Pascal Pfiffner <https://github.com/p2>
 - Trinadh Baranika <https://github.com/bktrinadh>
 
