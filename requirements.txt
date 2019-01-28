@@ -2,5 +2,6 @@ pip>=1.4
 setuptools>=0.9
 wheel>=0.21
 bumpversion>=0.3
-isodate>=0.5
+isodate==0.6.0 \
+    --hash=sha256:cb8d849f5a54f6754b1c24feaa37b20b82b63401d02d99a3cd9a254cd9e53ee0
 requests>=2.4
