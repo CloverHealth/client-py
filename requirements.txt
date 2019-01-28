@@ -1,7 +1,12 @@
 pip>=1.4
 setuptools>=0.9
 wheel>=0.21
-bumpversion>=0.3
+bumpversion==0.5.3 \
+    --hash=sha256:6753d9ff3552013e2130f7bc03c1007e24473b4835952679653fb132367bdd57 \
+    --hash=sha256:6744c873dd7aafc24453d8b6a1a0d6d109faf63cd0cd19cb78fd46e74932c77e
 isodate==0.6.0 \
-    --hash=sha256:cb8d849f5a54f6754b1c24feaa37b20b82b63401d02d99a3cd9a254cd9e53ee0
-requests>=2.4
+    --hash=sha256:aa4d33c06640f5352aca96e4b81afd8ab3b47337cc12089822d6f322ac772c81 \
+    --hash=sha256:2e364a3d5759479cdb2d37cce6b9376ea504db2ff90252a2e5b7cc89cc9ff2d8
+requests==2.21.0 \
+    --hash=sha256:7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b \
+    --hash=sha256:502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e
