@@ -1,3 +1,13 @@
+Clover's fork of smart-on-fhir/client-py
+========================================
+This is a fork of `fhirclient==3.2.0` which is being added to and maintained by Clover. In the immediate, it is supporting integration with CMS' Blue Button API.
+
+This repo has no `master` branch, instead has a `clover` branch that all feature branches can be merged into.
+
+With each merge to `clover`, please also bump the clover version in `fhirclient/client.py` by 1. For example: `'3.2.0-clover-1'` -> `'3.2.0-clover-2'`.
+
+More importantly: once you've merged into `clover`, also create a `tag` with that same version number (e.g. `'3.2.0-clover-2'`). The tag is what we will reference in requirements files.
+
 SMART FHIR Client
 =================
 
