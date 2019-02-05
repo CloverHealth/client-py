@@ -622,10 +622,10 @@ class ExplanationOfBenefitDiagnosis(backboneelement.BackboneElement):
     def elementProperties(self):
         js = super(ExplanationOfBenefitDiagnosis, self).elementProperties()
         js.extend([
-            ("diagnosisCodeableConcept", "diagnosisCodeableConcept", codeableconcept.CodeableConcept, False, "diagnosis", True),
-            ("diagnosisReference", "diagnosisReference", fhirreference.FHIRReference, False, "diagnosis", True),
+            ("diagnosisCodeableConcept", "diagnosisCodeableConcept", codeableconcept.CodeableConcept, False, "diagnosis", False),
+            ("diagnosisReference", "diagnosisReference", fhirreference.FHIRReference, False, "diagnosis", False),
             ("packageCode", "packageCode", codeableconcept.CodeableConcept, False, None, False),
-            ("sequence", "sequence", int, False, None, True),
+            ("sequence", "sequence", int, False, None, False),
             ("type", "type", codeableconcept.CodeableConcept, True, None, False),
         ])
         return js
