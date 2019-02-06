@@ -1034,7 +1034,7 @@ class ExplanationOfBenefitItemDetail(backboneelement.BackboneElement):
             ("programCode", "programCode", codeableconcept.CodeableConcept, True, None, False),
             ("quantity", "quantity", quantity.Quantity, False, None, False),
             ("revenue", "revenue", codeableconcept.CodeableConcept, False, None, False),
-            ("sequence", "sequence", int, False, None, True),
+            ("sequence", "sequence", int, False, None, False),
             ("service", "service", codeableconcept.CodeableConcept, False, None, False),
             ("subDetail", "subDetail", ExplanationOfBenefitItemDetailSubDetail, True, None, False),
             ("type", "type", codeableconcept.CodeableConcept, False, None, True),
